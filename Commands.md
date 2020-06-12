@@ -1,3 +1,6 @@
+### Default Prefix: `*`
+#### Help Command: `*help`
+
 | Configuration Commands | Description | Usage |
 | --- | --- | --- |
 | Set Mod-log | Set the server's modlog channel | ```sml [channel \| name, ID, mention ]``` |
@@ -9,3 +12,8 @@
     * `Muted`
     * `Temporarily Muted`
     * `Unmuted`
+
+| Moderation Commands | Description | Usage |
+| --- | --- | --- |
+| Kick | Kick a user from the server | ```kick [ mention, name, nickname, ID ] \<reason>``` |
+| Ban | Ban a user from the server | ```ban [ mention, name, nickname, ID] \<reason```> |
