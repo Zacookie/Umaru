@@ -18,7 +18,7 @@ module.exports = {
         if (!kickMember.kickable) return message.channel.send("Can't kick that hooligan!");
         if (kickMember.user.bot) return message.channel.send("Can't kick my fellow m8");
 
-        // Reasonings
+        // Message Sent to the kicked user.
         var reason = args.slice(1).join(" ");
         try {
             kickMember.send(`Sup kiddo, ${message.author.username} kicked you out from  **${message.guild.name}**\nReason: *${reason || "That pleb didn't specify a reason. Get him back!"}*`).then(() =>
@@ -26,6 +26,8 @@ module.exports = {
             } catch {
                 kickMember.kick()
             }
+        
+        // Reasonings
         if (reason) {
             var sembed2 = new MessageEmbed()
                 .setColor("RANDOM")
@@ -36,7 +38,7 @@ module.exports = {
         const channel = client.channels.cache.find(channel => channel.name.toLowerCase() === 'modlog');
         if(!channel) return;
 
-        // Message sent after the kick
+        // Message Sent after kick in #modlog
         const embed = new MessageEmbed()
             .setAuthor(`${message.guild.name}`, message.guild.iconURL({ dynamic: true }))
             .setColor("RANDOM")
@@ -47,9 +49,9 @@ module.exports = {
             .addField("**Reason**", `${reason || "He gave no reason. *Lazy*"}`)
             .addField("**Judgement Date**", message.createdAt.toLocaleString())
             .setTimestamp()
-            .setFooter(message.guild.name, message.client.user.displayAvatarURL())
+            .setFooter(message.guild.name, message.client.user.displayAvatarURL());
         
-        channel.send(embed)
+        channel.send(embed);
 
     }
 }
