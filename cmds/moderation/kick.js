@@ -46,7 +46,7 @@ module.exports = {
             .setDescription("Kick")
             .addField("**Kid**", kickMember.user.username)
             .addField("**Responsible Pleb**", message.author.username)
-            .addField("**Reason**", `${reason || "He gave no reason. *Lazy*"}`)
+            .addField("**Reason**", `${reason || "Person gave no reason. *Lazy*"}`)
             .addField("**Judgement Date**", message.createdAt.toLocaleString())
             .setTimestamp()
             .setFooter(message.guild.name, message.client.user.displayAvatarURL());
