@@ -3,6 +3,7 @@
 ![image](https://cdn.discordapp.com/attachments/720137467579334716/720827776592117760/cfd84f958d15115398bc9403624e3e67.gif)
 ---
 ## __U' is a bot created based on the Discord.JS library.__
+## Invite
 ---
 ### Created By: __Zachary__
 ### Available Commands
@@ -39,4 +40,3 @@
     * **Add Role** - Add a role to a user.
     * **Delete Role** - Delete a role from a user.
     * **Delete Messages** - Bulk messages from 1-100.
----
