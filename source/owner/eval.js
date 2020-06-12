@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const beautify = require("beautify"); // Install package [npm i beautify]
-const ownerid = ["owner ID here"];
+const ownerid = "owner ID here";
 
 module.exports = {
     config: {
