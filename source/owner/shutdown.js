@@ -28,11 +28,6 @@ module.exports = {
             }
         })
         .catch(collected => {
-            let embed = new Discord.MessageEmbed()
-                .setColor(colored[~~(Math.random() * colored.length)])
-                .setTitle("Waitinf for you judgement...")
-                .setDescription("React with yay or nay! FAST!");
-
             message.channel.send("Bruh react fast with check or x. It ain't that hard!");
         });
     } 
