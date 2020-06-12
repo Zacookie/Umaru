@@ -30,7 +30,6 @@ module.exports = {
         if (reason) {
         var sembed = new MessageEmbed()
             .setColor("RANDOM")
-            .setAuthor(message.guild.name, "https://cdn.discordapp.com/attachments/717949819330625581/720058799376826378/tenor.gif")
             .setDescription(`Y'all banned this nerd => ${banMember.user.username}\n*${reason || "The person who banned this kid is too lazy to give a reason."}*`)
         message.channel.send(sembed)
         }
