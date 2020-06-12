@@ -39,7 +39,3 @@
     * **Add Role** - Add a role to a user.
     * **Delete Role** - Delete a role from a user.
     * **Delete Messages** - Bulk messages from 1-100.
-
-
-
-# Umaru
