@@ -15,7 +15,7 @@
     * **QR Code** - Generates QR Code with message. Use a QR code scanner to see.
 ---
 * **Information**
-    * U**ser Information** - Gathers the information about the author or a mentioned user.
+    * **User Information** - Gathers the information about the author or a mentioned user.
     * **Server Information** - Provides the information about the server.
     * **Weather** - Provides the weather forecast of a specific location.
     * **Invite** - Provides the bot's invite link.
