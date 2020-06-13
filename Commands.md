@@ -1,6 +1,6 @@
 ### Default Prefix: `*`
 #### Help Command: `*help`
-
+---
 | Configuration Commands | Description | Usage |
 | --- | --- | --- |
 | **Set Mod-log** | Set the server's modlog channel | ```sml [ Channel: name, ID, mention ]``` |
@@ -12,7 +12,7 @@
     * `Muted`
     * `Temporarily Muted`
     * `Unmuted`
-
+---
 | Moderation Commands | Description | Usage |
 | --- | --- | --- |
 | **Kick** | Kick a user from the server | ```kick [ User: mention, name, nickname, ID ] <reason>``` |
@@ -32,7 +32,7 @@
 | ```Ban Members``` | Ban and Unban |
 | ```Manage Roles``` | Add Role, Delete Role, Mute, Temporary Mute, and Unmute |
 | ```Manage Messages``` | Purge |
-
+---
 | Information Commands | Description | Usage |
 | --- | --- | --- |
 | **Server Info** | Provides the information about the server | ```serveri``` |
@@ -45,7 +45,7 @@
 | **Stats** | Sends the bot's stats | ```stats``` |
 | **Member Count** | Sends the number of members in the server; including bots | ```memc``` |
 | **Role List** | Sends all of the roles in the server | ```rl``` |
-
+---
 | Miscellaneous Commands | Description | Usage |
 | --- | --- | --- |
 | **Meme** | Generates memes from [Reddit](https://reddit.com/) | ```meme``` |
