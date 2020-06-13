@@ -26,15 +26,10 @@
 | Delete Messages | Delete messages from 1-100 | ```purge [1-100]```
 * **Note: To have access to these commands, you must the require permission to perform the command.**
 
-| Command | Permission|
+| Permission | Command |
 | --- | --- |
-| Kick | Kick Members |
-| Ban | Ban Members |
-| Unban | Ban Members |
-| Mute | Manage Roles |
-| Temporary Mute | Manage Roles |
-| Unmute | Manage Roles |
-| Add Role | Manage Roles |
-| Delete Role | Manage Roles |
-| Delete Messages | Manage Messages | 
+| Kick Members | Kick |
+| Ban Members | Ban and Unban |
+| Manage Roles | Add Role, Delete Role, Mute, Temporary Mute, and Unmute |
+| Manage Messages | Purge |
 
