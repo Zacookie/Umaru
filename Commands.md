@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Set Mod-log | Set the server's modlog channel | ```sml [ Channel: name, ID, mention ]``` |
 | Set Prefix | Set U's server prefix | ```setp [ prefix ]``` |
-* **Note: Modlog channel is the channel where the bot will send the message when someone got:**
+* **Note: Modlog channel is where the bot will send the message when someone got:**
     * `Kicked`
     * `Banned`
     * `Unbanned`
@@ -22,3 +22,19 @@
 | Temporary Mute | Temporarily mute a user | ```tmute [ User: mention, name, nickname, ID] <reason>``` |
 | Unmute | Unmute a muted user | ```umute [ User: mention, name, nickname, ID] <reason>```
 | Add Role | Add role to a user | ```addr [ User: mention, name, nickname, ID]```
+| Delete Role | Delete role from a user | ```delr [ User: mention, name, nickname, ID]```
+| Delete Messages | Delete messages from 1-100 | ```purge [1-100]```
+* **Note: To have access to these commands, you must the require permission to perform the command.**
+
+| Command | Permission|
+| --- | --- |
+| Kick | Kick Members |
+| Ban | Ban Members |
+| Unban | Ban Members |
+| Mute | Manage Roles |
+| Temporary Mute | Manage Roles |
+| Unmute | Manage Roles |
+| Add Role | Manage Roles |
+| Delete Role | Manage Roles |
+| Delete Messages | Manage Messages | 
+
