@@ -33,6 +33,22 @@
 | ```Manage Roles``` | Add Role, Delete Role, Mute, Temporary Mute, and Unmute |
 | ```Manage Messages``` | Purge |
 
+| Information Commands | Description | Usage |
+| --- | --- | --- |
+| **Server Info** | Provides the information about the server | ```serveri``` |
+| **User Info** | Provides the information about the user or the author | ```useri [ User: mention, name, nickname, ID]``` |
+| **Country** | Provides the information about a specific country | ```country [ country name ]``` |
+| **Invite** | Sends the invite link of **U'** | ```invite``` |
+| **Ban List** | Sends **all** banned members' name | ```bl``` |
+| **Avatar** | Sends the author or the user's avatar | ```avtr [ User: name, username#TAG, ID]``` |
+| **Wikipedia** | Search something from [Wikipedia](https://wikipedia.com/) | ```wiki [ query ]``` |
+| **Stats** | Sends the bot's stats | ```stats``` |
+| **Member Count** | Sends the number of members in the server; including bots | ```memc``` |
+| **Role List** | Sends all of the roles in the server | ```rl``` |
 
-
-
+| Miscellaneous Commands | Description | Usage |
+| --- | --- | --- |
+| **Meme** | Generates memes from [Reddit](https://reddit.com/) | ```meme``` |
+| **Reddit** | Search something from [Reddit](https://reddit.com/) | ```reddit [ query ]``` |
+| **Space** | Sends information from space | ```space``` |
+| **QR Code** | Make a QR code that contains a message | ```code [ text ]``` |

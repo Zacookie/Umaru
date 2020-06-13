@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
     config: {
-        name: "avtr",
+        name: "avatar",
         alias: [""]
     },
     run: async (bot, message, args) => {
@@ -10,7 +10,7 @@ module.exports = {
 
         const embed = new MessageEmbed()
             .setColor("RANDOM")
-            .setDescription(`[Avatar Link](${clientUser.displayAvatarURL()})`)
+            .setDescription(`[${clientUser.user.username}'s Avatar](${clientUser.displayAvatarURL()})`)
             .setImage(clientUser.avatarURL({ dynamic: true, format: 'png', size: 512 }))
     
         message.channel.send(embed)
