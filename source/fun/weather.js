@@ -13,7 +13,7 @@ module.exports = {
         try {
         
             let embed = new MessageEmbed()
-                .setTitle(`Weather - ${result[0].location.name}`)
+                .setDescription(`Weather - ${result[0].location.name}`)
                 .setColor("RANDOM")
                 .addField("**Temperature**:", `${result[0].current.temperature} Celcius`, true)
                 .addField("**Sky Condition**:", result[0].current.skytext, true)
