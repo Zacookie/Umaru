@@ -24,7 +24,7 @@
 | **Add Role** | Add role to a user | ```addr [ User: mention, name, nickname, ID]```
 | **Delete Role** | Delete role from a user | ```delr [ User: mention, name, nickname, ID]```
 | **Delete Messages** | Delete messages from 1-100 | ```purge [1-100]```
-* **Note: To have access to these commands, you must the require permission to perform the command.**
+* **Note: To have access to these commands, you must have the required permission to execute it**
 
 | Permission | Command |
 | --- | --- |
