@@ -15,21 +15,21 @@
 
 | Moderation Commands | Description | Usage |
 | --- | --- | --- |
-| Kick | Kick a user from the server | ```kick [ User: mention, name, nickname, ID ] <reason>``` |
-| Ban | Ban a user from the server | ```ban [ User: mention, name, nickname, ID] <reason>``` |
-| Unban | Unban a banned user | ```uban [ User: name, username#TAG, ID] <reason>```
-| Mute | Mute a user | ```mute [ User: mention, name, nickname, ID] <reason>```
-| Temporary Mute | Temporarily mute a user | ```tmute [ User: mention, name, nickname, ID] <reason>``` |
-| Unmute | Unmute a muted user | ```umute [ User: mention, name, nickname, ID] <reason>```
-| Add Role | Add role to a user | ```addr [ User: mention, name, nickname, ID]```
-| Delete Role | Delete role from a user | ```delr [ User: mention, name, nickname, ID]```
-| Delete Messages | Delete messages from 1-100 | ```purge [1-100]```
+| **Kick** | Kick a user from the server | ```kick [ User: mention, name, nickname, ID ] <reason>``` |
+| **Ban** | Ban a user from the server | ```ban [ User: mention, name, nickname, ID] <reason>``` |
+| **Unban** | Unban a banned user | ```uban [ User: name, username#TAG, ID] <reason>```
+| **Mute** | Mute a user | ```mute [ User: mention, name, nickname, ID] <reason>```
+| **Temporary Mute** | Temporarily mute a user | ```tmute [ User: mention, name, nickname, ID] <reason>``` |
+| **Unmute** | Unmute a muted user | ```umute [ User: mention, name, nickname, ID] <reason>```
+| **Add Role** | Add role to a user | ```addr [ User: mention, name, nickname, ID]```
+| **Delete Role** | Delete role from a user | ```delr [ User: mention, name, nickname, ID]```
+| **Delete Messages** | Delete messages from 1-100 | ```purge [1-100]```
 * **Note: To have access to these commands, you must the require permission to perform the command.**
 
 | Permission | Command |
 | --- | --- |
-| Kick Members | Kick |
-| Ban Members | Ban and Unban |
-| Manage Roles | Add Role, Delete Role, Mute, Temporary Mute, and Unmute |
-| Manage Messages | Purge |
+| ```Kick Members``` | Kick |
+| ```Ban Members``` | Ban and Unban |
+| ```Manage Roles``` | Add Role, Delete Role, Mute, Temporary Mute, and Unmute |
+| ```Manage Messages``` | Purge |
 
