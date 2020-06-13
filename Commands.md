@@ -25,11 +25,13 @@
 | **Delete Role** | Delete role from a user | ```delr [ User: mention, name, nickname, ID]```
 | **Delete Messages** | Delete messages from 1-100 | ```purge [1-100]```
 * **Note: To perform one of the moderation commands, you must have the required permission to execute it**
-
+### Permission Chart
 | Permission | Command |
 | --- | --- |
 | ```Kick Members``` | Kick |
 | ```Ban Members``` | Ban and Unban |
 | ```Manage Roles``` | Add Role, Delete Role, Mute, Temporary Mute, and Unmute |
 | ```Manage Messages``` | Purge |
+
+
 
