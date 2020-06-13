@@ -16,4 +16,3 @@ module.exports = {
         message.channel.send(embed)
     }
 }
-![image](https://cdn.discordapp.com/attachments/720137467579334716/721244058143424542/Screen_Shot_2020-06-13_at_12.00.53_AM.png)
