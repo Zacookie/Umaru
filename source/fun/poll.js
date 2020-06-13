@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 
 module.exports = {
     config: {
@@ -15,7 +15,7 @@ module.exports = {
       if (!args.join(' ')) if (!args.join(' ')) return message.channel.send("Hey kid, there's nothing to ask. Try asking something.")
       message.channel.send("I created a poll for ya. Hope you're happy about that.")
       
-      let pollEmbed = new Discord.MessageEmbed()
+      let pollEmbed = new MessageEmbed()
         .setTitle("Question")
         .setDescription(args.join(' '))
         .setFooter(`Poll created by: ${message.author.tag}`)
