@@ -5,10 +5,7 @@ module.exports = {
         name: "poll",
         aliases: ["vote"]
     },
-    run: async (client, message, args) => {
-      if (message.content.startsWith('n! ')) return;
-      if (message.channel.type == "dm") return;
-      if(!message.guild.me.hasPermission("SEND_MESSAGES")) return;
+    run: async (bot, message, args) => {
         let pollChannel = message.guild.channels.cache.find(channel => channel.name === "poll");
         if (!pollChannel) return message.channel.send("Create a channel called, `polls`. **FAST!**")
       
