@@ -1,6 +1,16 @@
 ### Default Prefix: `*`
 #### Help Command: `*help`
 ---
+#### New Command
+| Notes Command | Description | Usage |
+| --- | --- | --- |
+| Set Global Note | Set your a note for you globally | sgnote [note] (Maximum of 1000 characters) |
+| Set Server Note | Set your note that can only be seen in the guild where it has been set | ssnote [note] (Maximum of 1000 Characters) |
+| Server Note | Check a user or your own server note | note [User: mention, name, nickname, ID] |
+| Global Note | Check a user or your own global note | gn [User: mention, name, nickname, ID]
+| Log | Log a tree to earn papers | log
+| Papers | Check how many papers did the user or you have collected | papers [User: mention, name, nickname, ID] |
+---
 | Configuration Commands | Description | Usage |
 | --- | --- | --- |
 | **Set Mod-log** | Set the server's modlog channel | ```sml [ Channel: name, ID, mention ]``` |
