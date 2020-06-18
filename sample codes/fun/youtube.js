@@ -19,9 +19,9 @@ module.exports = {
             .setThumbnail(results[0].thumbnails.high.url)
             .setDescription(`**${results[0].channelTitle}** Channel Information
             **Lewnk**: [Clewk](${results[0].link})
-            **Jewnd**: \`${new Date(results[0].publishedAt).toLocaleString('en-GB', { dateStyle: 'full'})}\`
-            **Chewnel ID**: \`${results[0].channelId}\`
-            **Chewnel Dex**: \`\`\`ini\n[ ${results[0].description || 'Got no shit to say'} ]\`\`\``)
+            **Jewnd**: ${new Date(results[0].publishedAt).toLocaleString('en-GB', { dateStyle: 'full'})}
+            **Chewnel ID**: ${results[0].channelId}
+            **Chewnel Dex**: [ ${results[0].description || 'Got no shit to say'} ]`)
             .setFooter(`yT Sewrch`, results[0].thumbnails.high.url)
 
         return message.channel.send(embed);
