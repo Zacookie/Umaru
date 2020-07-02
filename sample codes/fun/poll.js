@@ -9,7 +9,7 @@ module.exports = {
         let pollChannel = message.guild.channels.cache.find(channel => channel.name === "poll");
         if (!pollChannel) return message.channel.send("Create a channel called, `poll`. **FAST!**")
       
-      if (!args.join(' ')) if (!args.join(' ')) return message.channel.send("Hey kid, there's nothing to ask. Try asking something.")
+      if (!args.join(' ')) return message.channel.send("Hey kid, there's nothing to ask. Try asking something.")
       message.channel.send("I created a poll for ya. Hope you're happy about that.")
       
       let pollEmbed = new MessageEmbed()
