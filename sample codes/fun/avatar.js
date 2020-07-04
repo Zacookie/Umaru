@@ -10,7 +10,7 @@ module.exports = {
 
         const embed = new MessageEmbed()
             .setColor("RANDOM")
-            .setDescription(`[${clientUser.user.username}'s Avatar](${clientUser.displayAvatarURL()})`)
+            .setDescription(`[${clientUser.username}'s Avatar](${clientUser.displayAvatarURL()})`)
             .setImage(clientUser.avatarURL({ dynamic: true, format: 'png', size: 512 }))
     
         message.channel.send(embed)
